@@ -16,7 +16,7 @@ def configure(conf):
   
 def build(bld):
   obj = bld.new_task_gen('cxx', 'shlib', 'node_addon')
-  obj.target = 'hello_world'
+  obj.target = 'ragel_addon'
   obj.source = [ 'parse_int.rl' ]
 
 # vim: filetype=python :

@@ -4,6 +4,6 @@ Shows how to use ragel with node-waf. Does not teach any ragel.
 
 bc. node-waf configure build
 node
-> require('./build/Release/hello_world').parseInt('42')
+> require('./build/Release/ragel_addon').parseInt('42')
 
 License: "MIT":http://github.com/agnat/node_example_ragel_addon/LICENSE
