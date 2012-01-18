@@ -17,7 +17,6 @@ def configure(conf):
 def build(bld):
   obj = bld.new_task_gen('cxx', 'shlib', 'node_addon')
   obj.target = 'hello_world'
-  obj.cxxflags = ['-Wall']
-  obj.source = [ 'hello_world.rl' ]
+  obj.source = [ 'parse_int.rl' ]
 
 # vim: filetype=python :
